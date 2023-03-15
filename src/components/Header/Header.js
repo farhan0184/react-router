@@ -24,6 +24,10 @@ const Header = () => {
                             color: isActive ? '#831843' : '#334155' })}>
                             Posts
                         </NavLink>
+                        <NavLink to="/countries" style={({ isActive }) => ({ 
+                            color: isActive ? '#831843' : '#334155' })}>
+                            Countries
+                        </NavLink>
                         <NavLink to="/about" style={({ isActive }) => ({ 
                             color: isActive ? '#831843' : '#334155' })}>
                             AboutUs
